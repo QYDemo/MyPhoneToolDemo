@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Demo_IphoneInfo
+//
+//  Created by ihefe－hulinhua on 2/19/16.
+//  Copyright © 2016 ihefe_hlh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define VC_Color [UIColor colorWithRed:44.f/255.f green:54.f/255.f blue:62.f/255.f alpha:1]
+
+#ifdef __OBJC__
+#import "QY_TotalViewController.h"
+#import "Masonry.h"
+#import "QYDeviceTool.h"
+
+
+#endif
+
+#endif /* PrefixHeader_pch */
